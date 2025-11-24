@@ -16,7 +16,7 @@ stopwatch. All options run inside a single Python file.
 The program offers:
 
 1.  **Basic Arithmetic Calculator:** Performs addition, subtraction,
-    multplication, and division using high-precision decimal numbers.
+    multplication, and division using high-precision decimal numbers and ensuring no floating pont errors.
 
 2.  **2D Geometry:** Calculates the area and perimeter/circumference for
     four common shapes like:
@@ -41,7 +41,7 @@ The program offers:
 
     - Cylinder
 
-4.  **Quadratic Equation Solver:** Finds the roots of a quadratic
+4.  **Quadratic Equation Roots finder:** Finds the roots of a quadratic
     equation (standard form)(ax\^2 + bx + c = 0), handling real and
     complex (imaginary) roots (uses cmath library for complex roots).
 
@@ -56,7 +56,7 @@ The program offers:
 
   - math: For constants (eg: pi) and standard mathematical functions.
 
-  - sys: For exiting the program.
+  - sys: For exiting the program using sys.exit().
 
   - decimal: for precision in calculations
 
@@ -67,7 +67,7 @@ The program offers:
 **How to Run the Project**
 
 1.  **Requirements:** Ensure you have Python 3.14 (or higher version)
-    installed in your system. You can download it from
+    installed in your devicw. You can download it from
     [python.org](https://www.python.org/).
 
 2.  **Save the file:** Save the program code into any file having any
