@@ -13,7 +13,7 @@ stopwatch. All options run inside a single Python file.
 
 **Features**
 
-The program offers the following core functionalities:
+The program offers:
 
 1.  **Basic Arithmetic Calculator:** Performs addition, subtraction,
     multplication, and division using high-precision decimal numbers.
