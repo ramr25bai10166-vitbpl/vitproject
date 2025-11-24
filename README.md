@@ -2,17 +2,14 @@
 
 **Overview of the Project**
 
-This project, made in Python, is a multi-purpose program designed to
-handle common mathematical calculations and utility tasks.
+This Python project brings together several small but commonly needed
+tools into one menu-based script. Instead of opening different apps for
+basic math, geometry, or quick timing, the program gives everything in
+one place. It's simple to use, and is meant to be beginner-friendly.
 
-The program presents a main menu to the user, allowing them to select
-from basic arithmetic calculator, 2D shape perimeter/area calculator and
-3D shape surface area/volume, solving quadratic equations, and a simple
-stopwatch feature.
-
-It is built using the multiple modules for high-precision arithmetic,
-ensuring accuracy for scientific and geometric calculations, performing
-required tasks.
+You can choose between performing arithmetic, calcalating areas and
+volumes of shapes, solving quadratic equations, or using a built-in
+stopwatch. All options run inside a single Python file.
 
 **Features**
 
@@ -20,16 +17,15 @@ The program offers the following core functionalities:
 
 1.  **Basic Arithmetic Calculator:** Performs addition, subtraction,
     multplication, and division using high-precision decimal numbers.
-    Includes error handling features like for division by 0.
 
 2.  **2D Geometry:** Calculates the area and perimeter/circumference for
-    four common shapes:
+    four common shapes like:
 
     - Square
 
     - Rectangle
 
-    - Triangle (supports Heron\'s formula and Right-Angled triangle
+    - Triangle (also supports Heron\'s formula and Right-Angled triangle
       methods)
 
     - Circle
@@ -46,11 +42,11 @@ The program offers the following core functionalities:
     - Cylinder
 
 4.  **Quadratic Equation Solver:** Finds the roots of a quadratic
-    equation (ax\^2 + bx + c = 0), handling real and complex (imaginary)
-    roots.
+    equation (standard form)(ax\^2 + bx + c = 0), handling real and
+    complex (imaginary) roots (uses cmath library for complex roots).
 
-5.  **Stopwatch:** A simple, interactive stopwatch utility that
-    calculates elapsed time between two \"Enter\" key presses.
+5.  **Stopwatch:** A simple stopwatch for timing small tasks. It uses
+    time module.
 
 **Technologies/Tools Used**
 
@@ -58,42 +54,35 @@ The program offers the following core functionalities:
 
 - **Core Libraries:**
 
-  - math: For constants like pi and standard mathematical functions.
+  - math: For constants (eg: pi) and standard mathematical functions.
 
-  - sys: For exiting the program gracefully.
+  - sys: For exiting the program.
 
-  - decimal: Used extensively to ensure high-precision floating-point
-    arithmetic.
+  - decimal: for precision in calculations
 
-  - cmath: Used for calculating the roots of quadratic equations,
-    especially when the discriminant is negative (complex roots).
+  - cmath: for complex roots is quadratic equation
 
-  - time: Used for the stopwatch functonality.
+  - time: Used for the stopwatch.
 
-**Steps to Install & Run the Project**
+**How to Run the Project**
 
-Since this is a single-file Python script, installation is
-straightforward.
-
-1.  **Prerequisites:** Ensure you have Python 3.14 installed on your
-    system. You can download it from
+1.  **Requirements:** Ensure you have Python 3.14 (or higher version)
+    installed in your system. You can download it from
     [python.org](https://www.python.org/).
 
-2.  **Save the file:** Save the provided code into a file having any
+2.  **Save the file:** Save the program code into any file having any
     name ending with .py.
 
-3.  **Run from Command Line:** Open your terminal or command prompt,
-    navigate to the directory where you saved the file, and execute the
-    script.
+3.  **Run the program:** The program can be run through idle, pycharm,
+    etc.
 
-4.  **Interaction:** The program will launch the main menu, and you can
-    interact with it by typing the corresponding number (1-6) and
-    pressing Enter.
+4.  **Interaction:** A menu will appear, you can enter a number
+    corresponding to what task you would like to peform with it.
 
 **Instructions for Testing**
 
-You can test the core functionalities by selecting the relevant option
-from the main menu and providing specific test values. Eg:
+You can test the program by selecting the relevant option from the main
+menu and providing specific test values. Eg:
 
 | **Feature No.** | **Function**               | **Test Input & Expected Output**                           |
 |-----------------|----------------------------|------------------------------------------------------------|
