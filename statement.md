@@ -2,103 +2,100 @@
 
 **● Problem Statement**
 
-Many users, from students to professionals, rely on multiple separate
-tools (basic calculators, scientific calculators, geometric formula
-references, and timers) to perform diferent tasks. This fragmentation
-leads to inefficiency, context switching, and reliance on physical
-devices or web searches for simple calculations. The core problem is the
-lack of a single, unified, and user-friendly application that provides
-comprehensive computational utility across arithmetic, geometry,
-algebra, and utility functions in one interface.
+When doing everyday calculations, whether it's basic arithmetic,
+checking an area for some basic shaps, or quickly solving a quadratic
+equation, people usually jump b/w different apps, websites, or physical
+calculators. Switching between tools every time becomes inconvenient and
+breaks focus, especially for students or anyone trying to finish work
+quickly.
+
+The idea behind this project is to bring all these frequently used
+functions into one simple and approachable program, so users don't have
+to rely on multiple tools for small tasks.
 
 **● Scope of the Project**
 
 The scope of this project is to develop a **Multi-purpose application**.
 
-**In Scope:**
+**What the program can do:**
 
-- Basic arithmetic operations (+, -, \*, /) with high precision (using
-  decimal library).
+- Basic arithmetic operations (+, -, \*, /) , uses decimal library to
+  avoid floating point issues. It can handle errors like dividing by 0.
 
-- 2D Geometry calculations (area and perimeter for square, rectangle,
-  triangle, circle).
+- 2D Geometry calculations (can find area and perimeter for square,
+  rectangle, triangle, circle).
 
-- 3D Geometry calculations (surface area and volume for cube, cuboid,
-  sphere, cylinder).
+- 3D Geometry calculations (calculates surface area and volume for cube,
+  cuboid, sphere, cylinder).
 
 - Algebraic tool for finding the roots of a standard quadratic equation
-  (\$ax\^2 + bx + c = 0\$).
+  (\$ax\^2 + bx + c = 0\$). Can even find imaginary(complex) roots using
+  cmath module.
 
-- A basic stopwatch (uses time library).
+- A basic stopwatch (uses time library)
 
-- Input validation to prevent errors like division by zero and
-  non-positive dimensions for shapes.
+- Input checking to avoid errors like division by zero and negative
+  lengths for shapes.
 
-**Out of Scope:**
+**What is out of scope of this program:**
 
-- Advanced scientific functions (e.g., trigonometry, logarithms, complex
-  number manipulation beyond quadratic roots).
+- Advanced scientific functions (e.g., trigonometry, logarithms,
+  matrix).
 
-- Graphing capabilities.
+- Graph making capabilities.
 
-- Data persistence or user accounts.
+- Saving user Data or user accounts.
 
 - Unit conversions (e.g., meters to feet).
 
-- Advanced statistical calculations.
-
 **● Target Users**
 
-The application is designed for a broad audience that requires reliable,
-diverse mathematical tools:
+The application is made for anyone person that requires to do quick
+calculations or, use diverse mathematicsal tools:
 
-1.  **Students (Middle School to College):** Primary users needing tools
-    for homework in math, physics, and introductory engineering courses.
-    They need quick access to formulas for geometric shapes and
-    algebraic solutions.
+1.  **Students (Middle School to College):** students may need this for
+    school/college assignments
 
-2.  **Hobbyists and DIY Enthusiats:** Users needing quick calculation of
-    material requirements (area/volume) for home projects or simple
-    geometry.
+2.  **People doing home projects or DIY:** people who could need fast
+    and simple area/volume calculator
 
-3.  **General Users:** Anyone needing a standard, reliable arithmetic
-    calculator and utility tools like a stopwatch for daily tasks.
+3.  **General Users:** Anyone who is needing a simple and reliable
+    arithmetic calculator and few tools like a stopwatch for any specfic
+    tasks
 
 **● High-Level Features**
 
-The application will feature a clear, menu-driven interface accessible
-via numeric inputs.
+The application will feature a clear and simple menu where you can
+accesss simple features like:
 
 **Feature 1: Basic Arithmetic Calculator**
 
-- Supports standard four functions (+, -, \*, /).
+- Supports basic four functions (+, -, \*, /).
 
-- Uses a high-precision decimal type for accurate results.
-
-- Handles division by zero error gracefully.
+- Handles errors like 0 division
 
 **Feature2: 2D Geometry Calculator**
 
-- **Square:** Calculates Area and Perimeter from side length.
+- **Square:** Calculates area and perimeter from side length.
 
-- **Rectangle:** Calculates Area and Perimeter from length and width.
+- **Rectangle:** Calculates area and perimeter from length and width.
 
-- **Triangle:** Supports both Heron\'s formula (for 3 sides) and
-  Right-Angled triangle area calculation.
+- **Triangle:** It can find perimeter and area using either Heron\'s
+  formula (for 3 sides) or right angled triangle (for if you have only
+  base and height of right angled triangle).
 
-- **Circle:** Calculates area and circumference from radius.
+- **Circle:** Finds area and circumference just from radius.
 
 **Feature 3: 3D Geometry Calculator**
 
-- **Cube:** Calculates surface area and volume from side length.
+- **Cube:** Calculates surface area and volume just from 1 side length.
 
 - **Cuboid:** Calculates surface area and volume from length, width, and
   height.
 
-- **Sphere:** Calculates surface area and volume from radius.
+- **Sphere:** Calculates surface area and volume jusr from radius.
 
-- **Cylinder:** Calculates surface area and volume from radius and
-  height.
+- **Cylinder:** can find surface area and volume from radius and height.
 
 **Feature 4: Quadratic Equation Solver**
 
