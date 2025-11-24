@@ -68,7 +68,7 @@ The program offers the following core functionalities:
   - cmath: Used for calculating the roots of quadratic equations,
     especially when the discriminant is negative (complex roots).
 
-  - time: Used for the stopwatch functionality.
+  - time: Used for the stopwatch functonality.
 
 **Steps to Install & Run the Project**
 
